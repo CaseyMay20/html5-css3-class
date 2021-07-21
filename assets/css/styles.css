@@ -1,0 +1,55 @@
+
+/* This is a CSS comment */
+
+html {
+    font-family: georgia;
+}
+
+/* 
+body {background: pink;} */
+
+h1 {
+    font-family: cursive;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    display: block;
+    /* display: inline-block */
+    margin-right: 20px;
+    font-size: 28px;
+    /* visibility: hidden;
+    display: none; */
+}
+
+.red-box {background: red;}
+.yellow-box {background: yellow}
+.green-box {background: green}
+
+.red-box-see-through {
+    background-color: rgba(255, 0, 0, 0.5)
+}
+
+.yellow-box-see-through {
+    background-color: rgba(255, 255, 0, 0.5)
+}
+
+.green-box-see-through {
+    background-color: rgba(0, 255, 0, 0.5)
+}
+
+.center-align-text {
+    text-align: center;
+}
+
+.left-align-text {
+    text-align: left;
+}
+
+.right-align-text {
+    text-align: right;
+}
